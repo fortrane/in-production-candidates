@@ -100,11 +100,14 @@ sudo systemctl restart nginx
 - CPU: 
 - ОЗУ: 
 - GPU: 
-- SSD/HDD: 
+- SSD/HDD: 10gb
 
-## Установка
+## Установка nlp_method
 ### Начальные настройки
 - Установите зависимости из requirements.txt
-
+- В файле config.py установите url вашего frontend
+- В файле config.py установите ваш ключ авторизации
+- Запустите main.py
+  
 ### Запуск
 
