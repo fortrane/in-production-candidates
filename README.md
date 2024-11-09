@@ -86,7 +86,7 @@ sudo systemctl restart nginx
     ```
     $apiUrl = "YOUR_URL_HERE";
     $secretKey = "SECRET_KEY_1";
-    $secretPythonKey = "SECRET_KEY_2";;
+    $secretPythonKey = "SECRET_KEY_2";
     ```
 
 ## Запуск
