@@ -41,7 +41,7 @@ def metrics_processing(data: PersonalityData):
     }
 
     print(processed_data)
-    response = requests.post(config.API_URL, data=processed_data)
+    response = requests.post(f"{config.API_URL}/src/Api/v1.php?receiveOcean", data=processed_data)
 
     response.raise_for_status()
     try:
